@@ -1,0 +1,132 @@
+.epemvasis {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 9.6rem;
+    row-gap: 6.4rem;
+    margin: 9.6rem auto;
+    max-width: 140rem;
+}
+
+.epemvasi {
+    border: 1px solid #def1fb;
+    background-color: #eff8fd;
+    padding: 6.4rem 4.8rem 4.8rem;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: all 0.3s;
+}
+
+.epemvasi:hover {
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.2);
+}
+
+.epemvasi-icon {
+    position: absolute;
+    top: 0;
+    right: 50%;
+    transform: translate(50%, -50%);
+    border-radius: 50%;
+    background-color: #5bb7ed;
+    display: inline-block;
+    padding: 1rem;
+    transition: all 0.3s;
+}
+
+.epemvasi:hover .epemvasi-icon {
+    background-color: #f03e3e;
+}
+
+.epemvasi-icon ion-icon {
+    width: 5rem;
+    height: 5rem;
+    color: #fff;
+}
+
+
+.epemvasi-title {
+    font-size: 2rem;
+    color: #495057;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    text-align: center;
+    margin-bottom: 3.2rem;
+    text-transform: uppercase;
+}
+
+.epemvasi-info-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.epemvasi-info-list li {
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+}
+
+.checkmark {
+    font-size: 3rem;
+    color: #52a5d5;
+    ;
+}
+
+.epemvasi-info {
+    font-size: 1.4rem;
+    color: #868e96;
+    display: inline-block;
+    line-height: 1.6;
+}
+
+/* MEDIA QUERIES */
+/* 1240px */
+
+@media(max-width:77.5em) {
+    .epemvasis {
+        max-width: 114rem;
+        column-gap: 4.8rem;
+    }
+}
+
+
+
+/* 1056px */
+@media(max-width:66em) {
+    .epemvasis {
+        max-width: 100rem;
+        column-gap: 3.2rem;
+    }
+}
+
+/* 896px */
+@media(max-width:56em) {
+    .epemvasi {
+        padding: 6.4rem 2.4rem 4.8rem;
+    }
+}
+
+/* 784px */
+@media(max-width:49em) {
+    .epemvasis {
+        grid-template-columns: 1fr 1fr;
+        max-width: 70rem;
+    }
+}
+
+/* 640px */
+@media(max-width:40em) {}
+
+/* 544px */
+@media(max-width:34em) {
+    .epemvasis {
+        grid-template-columns: 1fr;
+        max-width: 44rem;
+        align-items: center;
+    }
+
+    .epemvasi {
+        max-width: 36rem;
+        justify-self: center;
+    }
+}

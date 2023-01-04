@@ -1,0 +1,48 @@
+.questions {
+    margin: 6.4rem auto;
+    max-width: 90rem;
+}
+
+.question-box {
+    margin: 2.4rem auto;
+}
+
+
+.question {
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+    font-weight: 900;
+    cursor: pointer;
+    background-color: #def1fb;
+    padding: 2.4rem 4.8rem;
+    color: #495057;
+    transition: all 0.5s;
+}
+
+.question.selected {
+    background-color: #cee9fa;
+    transition: all 0.5s;
+}
+
+.question span {
+    margin-left: auto;
+    font-size: 3.2rem;
+}
+
+.answer {
+    font-size: 1.6rem;
+    font-weight: 700;
+    max-height: 0;
+    background-color: #eff8fd;
+    overflow: hidden;
+    color: #495057;
+    transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.answer.selected {
+    height: auto;
+    max-height: 20rem;
+    padding: 4.8rem;
+    transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}
