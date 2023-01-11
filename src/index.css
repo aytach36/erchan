@@ -31,6 +31,7 @@ Tints:
 #eff8fd
 #def1fb
 #cee9fa
+#6bbeef
 
 Shades:
 #52a5d5;
@@ -72,6 +73,10 @@ body {
     font-weight: 400;
     color: #555;
     overflow-x: hidden;
+}
+
+*:focus {
+    outline: none;
 }
 
 .container {
@@ -145,11 +150,7 @@ body {
 }
 
 /* 640px */
-@media(max-width:40em) {
-
-}
+@media(max-width:40em) {}
 
 /* 544px */
-@media(max-width:34em) {
-
-}
+@media(max-width:34em) {}

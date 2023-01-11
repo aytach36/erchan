@@ -60,7 +60,7 @@ export default function Navbar() {
                     <NavLink className="nav-link" onClick={() => setOpen(false)} to="/">Επεμβάσεις</NavLink>
                     <NavLink className="nav-link" onClick={() => setOpen(false)} to="/faq">Συχνές Ερωτήσεις</NavLink>
                     <NavLink className="nav-link" onClick={() => setOpen(false)} to="/">Βιογραφικό</NavLink>
-                    <NavLink className="nav-link" onClick={() => setOpen(false)} to="/">Επικοινωνία</NavLink>
+                    <NavLink className="nav-link" onClick={() => setOpen(false)} to="/contact">Επικοινωνία</NavLink>
                 </div>
                 <button className="mobile-nav-btn" onClick={handleClick}>
                     <ion-icon name="menu-outline"></ion-icon>
